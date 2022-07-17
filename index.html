@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>扫雷--谢欢</title>
+    <link rel="stylesheet" type="text/css" href="./index.css"/>
+</head>
+<body>
+    <div class="box">
+
+        <!-- 头部 -->
+        <div class="header">
+            <!-- 开始时间 -->
+            <div class="time">
+                <span class="headerSpan">时间:</span>
+                <span class="gameTime">0</span>
+            </div>
+            <!-- 重开 -->
+            <div class="restart">
+                <img src="./img/restart.png" alt="" width="40">
+            </div>
+            <!-- 剩余多少雷 -->
+            <div class="bomb">
+                <span class="headerSpan">雷数:</span>
+                <span class="bombNum"></span>
+            </div>
+        </div>
+
+        <!-- 弹框 -->
+        <div class="alert">
+            <div class="content">
+                <div class="title">对不起，您扫雷失败
+                    <img src="./img/cry.png" alt="" width="40">
+                </div>
+                <div class="btnList">
+                    <div class="btn return">返回战局</div>
+                    <div class="btn btn2">重新开始</div>
+                </div>
+                
+            </div>
+        </div>
+
+        <div class="main">
+        </div>
+    </div>
+
+    <script src="./index.js"></script>
+</body>
+</html>
